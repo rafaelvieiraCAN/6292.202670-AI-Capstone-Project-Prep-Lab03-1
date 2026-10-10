@@ -1,0 +1,24 @@
+{
+  "source_url": "https://api.tvmaze.com/shows?page=0",
+  "records_processed": 250,
+  "unique_networks": 80,
+  "shows_per_genre": {
+    "Drama": 143,
+    "Comedy": 96,
+    "Action": 47
+  },
+  "average_rating_by_language": {
+    "Japanese": 8.12,
+    "English": 7.48,
+    "Dutch": 7.01
+  },
+  "shows_per_decade": {
+    "1950s": 2,
+    "1960s": 12,
+    "1970s": 18,
+    "1980s": 31,
+    "1990s": 40,
+    "2000s": 55,
+    "2010s": 92
+  }
+}

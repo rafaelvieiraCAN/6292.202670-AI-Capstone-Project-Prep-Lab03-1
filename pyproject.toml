@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tvsummary"
+version = "1.0.0"
+description = "Summarize TVMaze television show records."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "requests==2.32.3",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
